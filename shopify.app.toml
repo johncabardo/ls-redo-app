@@ -1,10 +1,10 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "a83c65cc7b4949849b644b8874ee4612"
+client_id = "e699a0a4909e5c5cf301c6fd263e2308"
 application_url = "https://example.com/"
 embedded = true
-name = "ls-redo-app"
-handle = "ls-redo-app"
+name = "ls-redo-app-1"
+handle = "ls-redo-app-1"
 
 [webhooks]
 api_version = "2025-01"
@@ -26,3 +26,6 @@ redirect_urls = [ "https://example.com/api/auth" ]
 
 [pos]
 embedded = false
+
+[build]
+include_config_on_deploy = true
